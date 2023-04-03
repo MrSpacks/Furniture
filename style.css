@@ -1,0 +1,113 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+/* null */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+/* fonts */
+
+@font-face {
+    font-family:'Font Awesome 5 Brands';
+    src: url(../Furniture/fonts/fa-brands-400.ttf);
+}
+@font-face {
+    font-family:'Font Awesome 5 Pro' ;
+    src: url(../Furniture/fonts/fa-regular-400.ttf);
+}
+
+/* global */
+
+/* header */
+
+.header_items{
+    max-width: 1920px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: normal;
+}
+.header_item{
+    display: flex;
+    align-items: center;
+}
+
+/* main slider*/
+.main-title_conteiner {
+    width: 100%;
+    height: 722px;
+    background-image: url(img/slider/header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+.main_chair {
+    width: 1332px;
+    height: 1225px; 
+   
+}
+.title_mask {
+    width: 458px;
+    height: 717px;
+    margin-left: 318px;
+    margin-top: 81px;
+}
+.title_chair {
+    width: 703px;
+    height: 815px;
+    position: absolute;
+    left: 171px;
+}
+.main_title {
+    position: relative;
+    right: 200px;
+    width: 635px;
+    margin-top: 174px;
+    
+}
+.title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 110px;
+    color: #363838;
+}
+.title_line {
+    margin: 30px 0px;
+    width: 151px;
+    border: 1px solid #979797;
+}
+.main_text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A5A5A;
+}
+
+/* footer */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  label, input, button {
+    margin: 10px;
+  }
