@@ -101,6 +101,54 @@ font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #5A5A5A;
 }
+/* main gallery */
+.main-gallery_conteiner {
+    width: 100%;
+    max-width: 1868px;
+    margin: 200px 0px 100px 0px;
+}
+.gallery_text {
+    
+    text-align: center;
+
+}
+.gallery_line {
+    display: inline-block;
+    margin: 30px;
+    width: 252px;
+    background: #6D7278;
+    border: 1px solid #979797;
+}
+.gallery_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 51px;
+    color: #363838;
+    font-family: 'Montserrat';
+}
+.gallery_p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #5A5A5A;
+    font-family: 'Open Sans';
+}
+.gallery_img {
+    display: flex;
+    justify-content: space-between;
+}
+.img_box{
+    max-width: 100%;
+    height: auto;
+}
+.img_box img{
+    max-width: 100%;
+    height: auto;
+}
+.img_box:not(:last-child){
+    margin-right: 30px;
+}
 
 /* footer */
 footer{
