@@ -139,8 +139,15 @@ font-family: 'Open Sans', sans-serif;
     justify-content: space-between;
 }
 .img_box{
+    transition: 0.5;
+    position: relative;
     max-width: 100%;
     height: auto;
+}
+.img_box:hover{
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
 }
 .img_box img{
     max-width: 100%;
@@ -148,6 +155,77 @@ font-family: 'Open Sans', sans-serif;
 }
 .img_box:not(:last-child){
     margin-right: 30px;
+}
+.box_text{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   
+}
+.box_text:hover{
+    opacity: 1;
+}
+.box_title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #363838;
+    font-family: 'Montserrat';
+
+}
+.box_p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'Open Sans';
+    color: #707070;
+}
+.box_line{
+    margin: 15px;
+    width: 70%;
+    border: 1px solid #979797;
+}
+
+/* main slogan */
+.main-slogan_conteiner {
+    display: flex;
+    position: relative;
+    background-image:url(img/Group\ 2.jpg);
+    max-width: 1920px;
+    height: 616px;
+}
+.slogan_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    width: 731px;
+    height: 288px;
+}
+.slogan_title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #363838;
+    font-family: 'Montserrat';
+}
+.slogan_line {
+    width: 200px;
+    border: 1px solid #979797;
+    margin: 20px 0px;
+}
+.slogan_p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5A5A5A;
+    font-family: 'Open Sans';
 }
 
 /* footer */
