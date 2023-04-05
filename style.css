@@ -228,9 +228,18 @@ font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans';
 }
 
-/* main grid */
+/* main works */
 .main-works_container {
-      
+    max-width: 11111px;
+    height: 451px;
+    margin: 0 auto;  
+}
+.works_top{
+    display: flex;
+}
+.works_content{
+    max-width: 268px;
+    height: 178px;
 }
     
 
