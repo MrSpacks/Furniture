@@ -234,15 +234,91 @@ font-family: 'Open Sans', sans-serif;
     height: 451px;
     margin: 0 auto;  
 }
+.title_works{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 51px;
+}
 .works_top{
     display: flex;
+    justify-content: center;
 }
 .works_content{
-    max-width: 268px;
+    margin-top: 20px;
+    width: 268px;
     height: 178px;
 }
-    
+.works_subtitle{
+    vertical-align: middle;
+    display: flex;
+    margin-bottom: 15px;
+}
+.works_subtitle img{
+    width: 34px;
+    height: 34px;
+    margin-right: 20px;
 
+}
+.works_subtitle h2{
+    margin-top: 8px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 23px;
+    color: #363838;
+    font-weight: 700;
+}
+.works_subtitle{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 27px;
+    color: #5A5A5A;
+    font-weight: 400;
+
+}
+.wotks_buttom{
+    display: flex;
+    justify-content: center;
+}
+.main_works-line{
+    background: #363838;
+    opacity: 0.7;
+    width: 1111px;
+    height: 1px;
+    margin: 0 auto;
+   
+}
+    
+/* main_masonry */
+.main_masonry{
+    display: flex;
+    justify-content: center;
+}
+
+.main_masonry button{
+    border-radius: 20px;
+    margin: 12.5px;
+    margin-bottom: 40px;
+    border: 1px solid #454647;
+
+}
+.main_masonry button:hover{
+    background: #FFEF35;
+    border: 1px solid #FFEF35;
+}
+.main_masonry a{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #8F8D8D;
+    font-weight: 600;
+    padding: 15px;
+
+}
 /* footer */
 footer{
     background: #DFDFDF;
