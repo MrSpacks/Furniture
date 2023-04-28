@@ -467,3 +467,17 @@ footer{
     font-weight: 400;
 
 }
+/* About Us */
+.about_conteiner {
+    background-image: url(img/gallery/about_bg.jpg);
+    height: 399px;
+    width: 100%;
+    text-align: center;
+}
+.about_title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #363838;
+    font-family: 'Montserrat';
+}
