@@ -520,8 +520,10 @@ footer{
     color: #5A5A5A;
     font-weight: 400;
     margin: 20px;
+    
 }
 .about_video{
+    margin-top: 40px;
     background-image: url(img/gallery/Object.jpg);
     height: 414px;
     width: 100%;
@@ -533,4 +535,28 @@ footer{
 }
 .about_buttom:hover {
     opacity: 0.5;
+}
+.about_details{
+    margin-top: 40px;
+    width: 100%;
+    height: 551px;
+    background-image: url(img/slider/header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+.details_img {
+}
+.details_texts {
+}
+.details_title {
+}
+.details_line {
+}
+.details_text {
+}
+.progress_bar-title {
+}
+.progress_bar {
 }
