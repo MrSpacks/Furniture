@@ -536,27 +536,83 @@ footer{
 .about_buttom:hover {
     opacity: 0.5;
 }
-.about_details{
+.about_details {
+    position: relative; 
     margin-top: 40px;
     width: 100%;
-    height: 551px;
+    min-height: 551px; 
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .about_details::before {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    top: auto;
     background-image: url(img/slider/header_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-around;
-}
+    height: 80%; 
+    z-index: -1;
+  }
+  
 .details_img {
 }
 .details_texts {
+    max-width: 824px;
 }
 .details_title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    line-height: 60px;
+    color: #363838;
+    font-weight: 700;
 }
 .details_line {
+    width: 200px;
+    height: 1px;
+    margin: 20px 0px;
+    background: #6D7278;
+}
+.progress{
+    display: flex;
+    justify-content: space-between;
 }
 .details_text {
+    margin: 40px 0px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 27px;
+    color: #5A5A5A;
+    font-weight: 400;
 }
-.progress_bar-title {
+.progress{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #363838;
+    font-family: 'Montserrat';
 }
+
 .progress_bar {
+    margin-top: 15px;
+    margin-bottom: 33px;
+    width: 100%;
+    height: 3px;
+    background: rgb(54,56,56);
+}
+.partners_conteiner{
+    margin-bottom: -200px;
+    display: flex;
+    justify-content: space-between;
+}
+.partners_conteiner img{
+    margin: 20px;
+    width: 17%;
+    height: 17%;
 }
