@@ -645,16 +645,55 @@ footer{
     text-align: left;
 }
 .content_conteiner {
-    max-width: 729px;
-    
+    max-width: 729px; 
+}
+.content_conteiner h2{
+    margin: 15px 0px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 38px;
+    color: #363838;
+    font-weight: 700;
+
+}
+.content_conteiner p{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #5A5A5A;
 }
 .quote {
+    margin: 50px 0px;
+    background-color: #DFDFDF;
+    height: 253px;
+    width: 100%;
+    text-align: center;
 }
-.text {
+.quote h2 {
+    padding: 30px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #363838;
+    font-family: 'Open Sans';
 }
 .line {
+    width: 200px;
+    margin: 0 auto; 
+    border: 1px solid #979797;
+    border-radius: 0.5px;
+    background: #6D7278;
 }
 .subtext {
+    padding: 30px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(54, 56, 56, 0.9033);
+    font-weight: 700;
 }
 .sidebar {
 }
