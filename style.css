@@ -636,3 +636,25 @@ footer{
     width: 17%;
     height: 17%;
 }
+/* blog */
+/* content */
+.blog_conteiner{
+    margin: 0 auto;
+    max-width: 1111px;
+    display: flex;
+    text-align: left;
+}
+.content_conteiner {
+    max-width: 729px;
+    
+}
+.quote {
+}
+.text {
+}
+.line {
+}
+.subtext {
+}
+.sidebar {
+}
