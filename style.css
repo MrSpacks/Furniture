@@ -320,26 +320,46 @@ font-family: 'Open Sans', sans-serif;
 
 }
 .main_gallery {
-    width: 110%;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
-}
-.gallery_conteiner {
     display: flex;
-    margin: 0 auto;
-    max-width: 1865px ;
-}
-.gallery_big-pic {
-    margin: 15px;
-    width: 33%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .gallery_conteiner {
+    display: flex;
+    width: 100%;
+    max-width: 1865px;
+    box-sizing: border-box;
+  }
+  
+  .gallery_big-pic {
+    width: 43%;
     height: auto;
-}
-.gallery_four-pic {
-    margin: 15px;
-}
-.gallery_four-pic img {
-    width: 43.3%;
-    height: auto;}
-
+    margin: 7.5px;
+  }
+  
+  .gallery_four-pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .gallery_four-pic img {
+    margin: 7.5px;
+    width: 47.5%;
+    height: auto;
+  }
+  
+  .gallery_four-pic img:last-child {
+    margin-bottom: 0; /* убран лишний отступ у последнего изображения */
+  }
+  
 /* main blog */
  
 .blog_conteiner {
@@ -607,7 +627,7 @@ footer{
     background: rgb(54,56,56);
 }
 .partners_conteiner{
-    margin-bottom: -200px;
+    margin-bottom: -40px;
     display: flex;
     justify-content: space-between;
 }
