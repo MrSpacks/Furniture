@@ -742,6 +742,7 @@ footer{
     display: flex;
 }
 /* contact */
+
 .map_conteiner{
     height: 578px;
     width: 100%;
@@ -821,3 +822,4 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
